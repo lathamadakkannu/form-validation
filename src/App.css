@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Login*/
+.style{
+  color: red;
+}
+body{
+  padding-left:30% ;
+}
+.login-form{ 
+  height: 80vh;
+  padding-top:10%;
+}
+.container{
+  width:100%;
+  margin: auto;
+  padding-bottom:30px;
+}
+.log-form{
+  width:45%;
+  height:70vh;
+  border: 1px solid rgb(82, 82, 82);
+  box-shadow: 0 0 5px rgb(161, 156, 156);
+  background-color:rgba(52, 96, 116, 0.438);
+  border-radius: 5px;
+}
+.type{
+  padding-left: 30px;
+}
+.type input{
+  width:100%;
+  padding: 20px;
+  border: 1px solid black;
+}
+.type{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1{
+ font-size:30px;
+  text-align:center;
+  padding: 25px;
+}
+.log-form button{
+  height: 8vh; 
+  Width: 90%;
+  font-size: 15px;
+  color:#868686; 
+  background: Linear-gradient(rgb(56, 56, 56), #383838);
+  border-radius: 0 5px 5px 0;
+  border:1px solid #444; 
+}
+button:hover{
+  color: #339933;
+  border: 1px solid #339933;
+}
+
+/*Register*/
+
+.Registeration-form{ 
+  height: 100vh;
+  padding-top:20%;
+}
+.container{
+  width:100%;
+  margin: auto;
+}
+.reg-form{
+  width:50%;
+  height:80vh;
+  border: 1px solid black;
+  box-shadow: 0 0 5px rgb(161, 156, 156);
+  background-color:rgba(104, 34, 110, 0.438);
+  border-radius: 5px;
+}
+.type{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.type input{
+  width:100%;
+  padding: 20px ;
+ border: 1px solid black;
+}
+.type{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1{
+ font-size:30px;
+  text-align:center;
+  padding: 20px;
+}
+.reg-form button{
+  height: 8vh; 
+  Width: 80%;
+  font-size: 15px;
+  color:#868686; 
+  background: Linear-gradient(rgb(56, 56, 56), #383838);
+  border-radius: 0 5px 5px 0;
+  border:1px solid #444; 
+}
+button:hover{
+  color: #339933;
+  border: 1px solid #339933;
+}
